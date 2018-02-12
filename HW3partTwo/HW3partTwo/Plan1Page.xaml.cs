@@ -9,13 +9,13 @@ using Xamarin.Forms.Xaml;
 
 namespace HW3partTwo
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainTabPage : TabbedPage
-    {
-        public MainTabPage()
-        {
-            InitializeComponent();
-        }
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class Plan1Page : ContentPage
+	{
+		public Plan1Page ()
+		{
+			InitializeComponent ();
+		}
 
         private void OnAppearing(object sender, EventArgs e)
         {
